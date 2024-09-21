@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/*Colors and font*/
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray-500: hsl(0, 0%, 42%);
+    --Gray-950: hsl(0, 0%, 7%);
+    --Font-size: 16px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Yellow);
+    width: 100%;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    max-width: 25vw;
+    height: 80vh;
+    background-color: var(--White);
+    border: 1px solid var(--Gray-950);
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 5);
+}
+header{
+    display: flex;
+    flex-direction:column;
+    margin: 20px;
+    gap: 20px;
+}
+img{
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+h2{
+    font-size: var(--Font-size);
+    color: var(--Gray-950);
+    background-color: var(--Yellow);
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    padding: 7px;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    align-items: center;
+}
+p{
+    font-size: var(--Font-size);
+    color: var(--Gray-500);
+}
+h1{
+    margin: 20px;
+    font-size: var(--Font-size);
+}
+a{
+    text-decoration: none;
+    color: var(--Gray-950);
+    cursor: pointer;
+}
+a:hover{
+    color: var(--Yellow);
+}
+aside{
+    margin: 20px
+}
+footer{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+footer  img{
+    width: 40px;
+}
+/* Responsive design for mobile and desktop*/
+@media only screen and (min-width: 320px) and (max-width: 1440px){
+    .card{
+        max-width: 50vh;
+        height: 85vh;
+    }
+    h2{
+        margin: 0px;
+    }
+}
