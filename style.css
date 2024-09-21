@@ -93,3 +93,23 @@ footer  img{
         margin: 0px;
     }
 }
+/* Responsive design for mobile and desktop on landscape orientation*/
+@media (orientation: landscape){
+    main{
+        width: auto;
+        height: auto;
+        content: "";
+    }
+    .card{
+        max-width: 100%;
+        height: auto;
+    }
+    img{
+        border-radius: 15px;
+        max-width: 100%;
+        height: auto;
+    }
+    h2{
+        margin: 0px;
+    }
+}
