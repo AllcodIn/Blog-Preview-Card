@@ -22,8 +22,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Github URL: [Add solution URL here](https://github.com/AllcodIn/Blog-Preview-Card.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github URL: [https://github.com/AllcodIn/Blog-Preview-Card.git](https://github.com/AllcodIn/Blog-Preview-Card.git)
+- Live Site URL: [https://allcodin.github.io/Blog-Preview-Card/](https://allcodin.github.io/Blog-Preview-Card/)
 
 ## My process
 
