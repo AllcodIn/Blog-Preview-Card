@@ -96,8 +96,8 @@ footer  img{
 /* Responsive design for mobile and desktop on landscape orientation*/
 @media (orientation: landscape){
     body{
-        width: auto;
-        height: auto;
+        max-width: 50vh;
+        height: 85vh;
     }
     .card{
         max-width: 100%;
