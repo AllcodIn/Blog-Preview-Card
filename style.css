@@ -12,7 +12,7 @@
     --Gray-950: hsl(0, 0%, 7%);
     --Font-size: 16px;
 }
-main{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,10 +95,9 @@ footer  img{
 }
 /* Responsive design for mobile and desktop on landscape orientation*/
 @media (orientation: landscape){
-    main{
+    body{
         width: auto;
         height: auto;
-        content: "";
     }
     .card{
         max-width: 100%;
