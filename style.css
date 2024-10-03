@@ -93,7 +93,7 @@ footer  img{
         margin: 0px;
     }
 }
-/* Responsive design for mobile and desktop on landscape orientation*/
+/* Responsive design for mobile and desktop on landscape orientation
 @media (orientation: landscape){
     body{
         width: auto;
@@ -112,3 +112,4 @@ footer  img{
         margin: 0px;
     }
 }
+*/
