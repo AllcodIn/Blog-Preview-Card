@@ -96,12 +96,12 @@ footer  img{
 /* Responsive design for mobile and desktop on landscape orientation*/
 @media (orientation: landscape){
     body{
-        max-width: 50vh;
-        height: 85vh;
+        width: auto;
+        height: auto;
     }
     .card{
-        max-width: 100%;
-        height: auto;
+        max-width: 50vh;
+        height: 85vh;
     }
     img{
         border-radius: 15px;
