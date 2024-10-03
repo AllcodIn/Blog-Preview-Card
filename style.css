@@ -84,7 +84,7 @@ footer  img{
     width: 40px;
 }
 /* Responsive design for mobile and desktop*/
-@media only screen and (min-width: 320px) and (max-width: 1440px){
+@media only screen and (min-width: 320px) and (max-width: 1980px){
     .card{
         max-width: 50vh;
         height: 85vh;
@@ -93,7 +93,7 @@ footer  img{
         margin: 0px;
     }
 }
-/* Responsive design for mobile and desktop on landscape orientation
+/* Responsive design for mobile and desktop on landscape orientation*/
 @media (orientation: landscape){
     body{
         width: auto;
@@ -112,4 +112,4 @@ footer  img{
         margin: 0px;
     }
 }
-*/
+
